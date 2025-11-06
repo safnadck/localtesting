@@ -3,4 +3,7 @@ include LICENSE.txt
 include README.rst
 include requirements/base.in
 include requirements/constraints.txt
+recursive-include localtesting/templatetags *.py
+recursive-include localtesting/templates *.html
+recursive-include localtesting/static *
 recursive-include application *.html *.png *.gif *.js *.css *.jpg *.jpeg *.svg
